@@ -3,6 +3,7 @@ package com.diki.javalanjut.gui;
 public class User {
     private String Username;
     private String Password;
+    private int Pin;
 
     public User() {
     }
@@ -11,6 +12,15 @@ public class User {
         Username = username;
         Password = password;
     }
+
+    public int getPin() {
+        return Pin;
+    }
+
+    public void setPin(int pin) {
+        Pin = pin;
+    }
+
 
     public String getUsername() {
         return Username;
@@ -33,6 +43,7 @@ public class User {
         return "User{" +
                 "Username='" + Username + '\'' +
                 ", Password='" + Password + '\'' +
+                ", Pin='" + Pin + '\'' +
                 '}';
     }
 }

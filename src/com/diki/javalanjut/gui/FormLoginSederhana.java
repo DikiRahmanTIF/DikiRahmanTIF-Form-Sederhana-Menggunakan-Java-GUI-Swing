@@ -10,6 +10,7 @@ public class FormLoginSederhana {
     private JButton loginButton;
     private JPanel rootPanel;
     private JLabel labelHasil;
+    private JTextField textPin;
 
     public FormLoginSederhana() {
         loginButton.addActionListener(new ActionListener() {
@@ -18,11 +19,14 @@ public class FormLoginSederhana {
                 //Mengambil data dari textUsername
                 String username=textUsername.getText();
                 //Mengambil data dari textPassword
-                String Password=textPassword.getText();
+                String password=textPassword.getText();
+                //Mengambil pin dari textPin
+                String pin=textPin.getText();
                 //Diproses
                 User user=new User();
                 user.setUsername(username);
-                user.setPassword(Password);
+                user.setPassword(password);
+                user.setPin(Integer.parseInt(pin));
                 //Tampilkan Output ke Form
                 labelHasil.setText(user.toString());
             }
