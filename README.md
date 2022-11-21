@@ -7,4 +7,4 @@ Buatlah sebuah project Java yang menerapkan Java GUI Swing.
 3. Hasil ditampilkan di tampilan GUI
 
 Berdasarkan Tugas Diatas Saya akan
-Membuat Form Registrasi Akun Sederhana
+Membuat Form Login Sederhana
