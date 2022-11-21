@@ -7,8 +7,8 @@ public class RunFormLogin {
         JFrame jFrame=new JFrame("Form login");
         jFrame.setContentPane(new FormLoginSederhana().getRootPanel());
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        jFrame.setLocation(null);
         jFrame.setSize(480, 480);
+        jFrame.setLocationRelativeTo(null);
         jFrame.setVisible(true);
     }
 }
