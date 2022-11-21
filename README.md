@@ -6,7 +6,5 @@ Buatlah sebuah project Java yang menerapkan Java GUI Swing.
 2. Minimal 2 inputan
 3. Hasil ditampilkan di tampilan GUI
 
-Berdasarkan Tugas Diatas Saya
-Diki Rahman(12250113908)
-Dari Kelas C Teknik Informatika
+Berdasarkan Tugas Diatas Saya akan
 Membuat Form Registrasi Akun Sederhana
