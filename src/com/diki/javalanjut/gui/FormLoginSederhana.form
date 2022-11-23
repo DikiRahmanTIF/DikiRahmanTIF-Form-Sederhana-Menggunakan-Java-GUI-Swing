@@ -13,7 +13,7 @@
           <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Form Login Sederhana"/>
+          <text value="Volume Balok"/>
         </properties>
       </component>
       <vspacer id="86757">
@@ -26,7 +26,7 @@
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Username"/>
+          <text value="Panjang"/>
         </properties>
       </component>
       <component id="d4f59" class="javax.swing.JTextField" binding="textUsername">
@@ -42,7 +42,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Password"/>
+          <text value="Lebar"/>
         </properties>
       </component>
       <component id="f35b" class="javax.swing.JTextField" binding="textPassword">
@@ -58,7 +58,7 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Login"/>
+          <text value="Hitung"/>
         </properties>
       </component>
       <component id="4b617" class="javax.swing.JLabel">
@@ -66,7 +66,7 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Hasil"/>
+          <text value="Volume Balok"/>
         </properties>
       </component>
       <component id="a0aa4" class="javax.swing.JLabel" binding="labelHasil">
@@ -82,7 +82,7 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Pin"/>
+          <text value="Tinggi"/>
         </properties>
       </component>
       <component id="ebd51" class="javax.swing.JTextField" binding="textPin">

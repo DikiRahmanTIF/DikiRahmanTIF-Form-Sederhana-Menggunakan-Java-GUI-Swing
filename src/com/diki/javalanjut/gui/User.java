@@ -1,14 +1,14 @@
 package com.diki.javalanjut.gui;
 
 public class User {
-    private String Username;
-    private String Password;
+    private int Username;
+    private int Password;
     private int Pin;
 
     public User() {
     }
 
-    public User(String username, String password) {
+    public User(int username, int password) {
         Username = username;
         Password = password;
     }
@@ -22,28 +22,24 @@ public class User {
     }
 
 
-    public String getUsername() {
+    public int getUsername() {
         return Username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(int username) {
         Username = username;
     }
 
-    public String getPassword() {
+    public int getPassword() {
         return Password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(int password) {
         Password = password;
     }
 
     @Override
     public String toString() {
-        return "User{" +
-                "Username='" + Username + '\'' +
-                ", Password='" + Password + '\'' +
-                ", Pin='" + Pin + '\'' +
-                '}';
+        return String.valueOf(Username*Password*Pin);
     }
 }

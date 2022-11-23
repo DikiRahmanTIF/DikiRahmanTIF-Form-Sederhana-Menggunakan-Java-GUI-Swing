@@ -24,8 +24,8 @@ public class FormLoginSederhana {
                 String pin=textPin.getText();
                 //Diproses
                 User user=new User();
-                user.setUsername(username);
-                user.setPassword(password);
+                user.setUsername(Integer.parseInt(username));
+                user.setPassword(Integer.parseInt(password));
                 user.setPin(Integer.parseInt(pin));
                 //Tampilkan Output ke Form
                 labelHasil.setText(user.toString());
